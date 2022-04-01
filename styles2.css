@@ -1,0 +1,87 @@
+@charset "UTF-8";
+@import url("my_portfolio/stylebrooks.css");
+body, html{
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-weight:1.8em;
+	color:#666;
+}
+h2{
+    font-family: input-sans, sans-serif !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    font-size: 60px !important;
+    color: #FFFFFF;
+	}
+p{
+    font-family: magion-web,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24px;
+    color: #FFF6F6;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+.pimg1{
+	background-image:url("../img/image4.img");
+	min-height: 100%;
+	font-family: input-sans, sans-serif! important;
+	font-weight: 400 !important;
+	font-style: bold !important;
+	font-size: 50px !important;}
+.pimg2{
+	background-image:url("../images/charlotte2.jpg");
+	min-height: 900px;
+	font-family: input-sans, sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 50px !important;
+}
+.pimg3{
+	background-image:url("../images/charlotte3.jpeg");
+	min-height: 900px;
+	font-family: input-sans, sans-serif !important;
+	font-weight: 400 !important;
+	font-style: normal !important;
+	font-size: 50px !important;
+}
+.section{
+	text-align: center;
+	padding:50px 80px;
+	
+}
+.section-light{
+    background-color: #C40D0D;
+    color: #FFFFFF;
+}
+.section-dark{
+	background-color:#FB7F9C;
+}
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.ptext .border{
+	background-color:#111;
+	color:#fff;
+	padding:20px;
+}
+.ptext .border.trans{
+	background-color:transparent;
+}
